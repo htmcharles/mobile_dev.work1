@@ -6,7 +6,7 @@ export default function Index() {
       <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
         <Text style={styles.title}>Hey there 👋</Text>
 
-        {Array.from({ length: 7 }).map((_, index) => (
+        {Array.from({ length: 17 }).map((_, index) => (
           <View key={index} style={styles.card}>
             <Text style={styles.cardTitle}>Tip {index + 1}</Text>
             <Text style={styles.cardBody}>Content {index + 1}.</Text>
